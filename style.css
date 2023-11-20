@@ -1,0 +1,127 @@
+/* Type your code here */
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,300;6..12,400;6..12,500;6..12,600;6..12,700;6..12,800&display=swap');
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(https://s3.ap-south-1.amazonaws.com/kalvi-education.github.io/front-end-web-development/cricpro-bg.png);
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: 'Nunito Sans', sans-serif;
+  padding: 1rem 4rem;
+}
+
+nav {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+nav img {
+  height: 2.5rem;
+}
+
+h1 {
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  font-weight: 800;
+  text-shadow: 2px 2px 4px rgb(0, 0, 0, 0.2);
+}
+
+main p {
+  font-weight: 700;
+  color: #696969;
+}
+
+table {
+  text-align: left;
+  width: 80%;
+  max-width: 58rem;
+  border-collapse: collapse;
+  margin-top: 1.5rem;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+table th,
+table td {
+  padding: 0.7rem 1.25rem;
+}
+
+.table-header {
+  background-color: #f05033;
+  color: white;
+}
+
+.table-header th:last-child {
+  text-align: right;
+}
+
+.batman-detail {
+  background-color: #fafafa;
+  color: black;
+  border-bottom: 1px solid #bebebe;
+}
+
+.player td:last-child,
+.batman-detail th:last-child {
+  text-align: end;
+}
+
+.player,
+.extras,
+.total,
+.didnot {
+  background-color: white;
+  border-bottom: 1px solid #bebebe;
+}
+
+.player th {
+  font-weight: 400;
+}
+
+.player .name,
+.didnot .name {
+  color: #2b81ee;
+}
+
+.name {
+  position: relative;
+}
+
+.infoImg {
+  position: absolute;
+  background: whitesmoke;
+  left: 0;
+  z-index: 2;
+  margin: 1.75rem 1rem;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
+    rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+  border-radius: 0.5rem;
+}
+
+.batman-detail th:nth-child(n + 3):nth-child(-n + 6),
+.player td:nth-child(n + 3):nth-child(-n + 6) {
+  text-align: center;
+}
+
+.name:hover {
+  cursor: pointer;
+}
+
+.status {
+  color: #696969;
+}
+
+.runs {
+  font-weight: 600;
+}
+
+.footer {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
